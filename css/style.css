@@ -1,0 +1,206 @@
+*,
+*:hover {
+    margin: auto;
+}
+
+body {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.top {
+    margin-top: 10px;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+.menu {
+    margin: 0;
+
+
+}
+
+.menu__list {
+    margin: 0;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+ background-color: brown;
+    color: aqua;
+    margin-top: 10px;
+
+
+}
+
+.menu__item {
+    font-size: 24px;
+    list-style-type: none;
+    margin: 10px;
+
+
+}
+
+.menu__link {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    /*весь текст прописными буквами*/
+}
+
+.menu__link:hover {
+    color: yellow;
+    border-bottom: 1px solid yellow;
+
+}
+
+.content {
+    background: white;
+    height: 500px;
+
+
+
+
+}
+
+.container {
+    max-width: 960px;
+    margin: 0px auto;
+    padding: 10px;
+    position: relative;
+}
+
+.left {
+    position: absolute;
+    font-size: 30px;
+    top: 100px;
+    left: 250px;
+    color: rgba(12, 38, 74, 0.657);
+}
+
+.right {
+    position: absolute;
+    font-size: 24px;
+    top: 100px;
+    right: 250px;
+    color: blue;
+}
+
+
+.center {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+
+
+
+}
+
+.myh1 {
+    color: black;
+    font-size: 26px;
+    margin-bottom: 10px;
+
+}
+
+.myp1 {
+    color: black;
+    font-size: 16px;
+    margin-bottom:20px;
+
+}
+
+.center__btr {
+    color: white;
+    background-color: rgb(27, 118, 228);
+    border: 1px solid rgb(27, 118, 228);
+
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 65px;
+
+}
+
+.center__btr:hover {
+    background-color: yellowgreen;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(91, 76, 76);
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    padding: 15px;
+    margin-bottom: 0;
+    width: 100%;
+
+}
+
+.myp2 {
+    max-width: 700px;
+    color: white;
+    font-size: 12px;
+    line-height: 16px;
+    padding-left: 30px;
+}
+
+.forvideo {
+    height: 400px;
+    margin: 0;
+    padding: 10px;
+
+}
+
+.allvideo {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.videoelem {
+    text-align: center;
+    background-color: aqua;
+    border: 1px solid red;
+    padding: 30px;
+    margin: 10px;
+}
+
+.myvideo1 {
+    width: 350px;
+    height: 150px;
+
+
+}
+
+
+.bottom__link {
+    text-decoration: none;
+    margin: 30px 5px;
+    border-bottom: 1px;
+
+}
+
+.bottom__btr {
+    color: white;
+    font-size: 16px;
+    padding: 10px 40px;
+    border: 1px solid white;
+    background-color: green;
+    border-radius: 5px;
+    margin: 20px 5px;
+
+
+}
+
+.bottom__btr:hover {
+    background-color: rgb(27, 118, 228);
+}
+
+.bottom__img {
+    height: 50px;
+    margin-top: 10px;
+}
